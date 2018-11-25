@@ -41,7 +41,7 @@ $ touch ~/react-course-projects/indecision-app/public/index.html
 ```
 $ live-server public/
 ```
-You should see your index.html. Modify it, save it and automatically see the changes on the browser
+You should see your index.html. Modify it, save it and automatically see the changes in the browser
 ### Create a script folder under public folder
 ```
 $ cd ~/react-course-projects/indecision-app/public
@@ -93,3 +93,4 @@ This app.js is the original (not compiled) source script.
 ```
 $ babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
 ```
+Now with live server and babel the workflow is complete and live changes are reflected in the browser
