@@ -1,0 +1,12 @@
+{
+  "name": "indecision-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/vikyvik71/indecision-app-final.git",
+  "author": "Vittorio <vit.marino@reply.it>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
