@@ -66,6 +66,7 @@ $ yarn global add babel-cli
 Check with:
 ```
 $ babel --version
+6.26.0
 ```
 ### Init the project
 ```
