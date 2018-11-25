@@ -34,13 +34,14 @@ live-server 1.2.0
 ### Create a public folder and index.html
 ```
 $ cd ~/react-course-projects/indecision-app
-$ mkdir -p ~/react-course-projects/indecision-app/public
+$ mkdir -p public
 $ touch ~/react-course-projects/indecision-app/public/index.html
 ```
 ### Launch live-server from project home
 ```
 $ live-server public/
 ```
+You should see your index.html
 ### Include script tags in index.html for React and ReactDOM
 ```
 <script src="https://unpkg.com/react@16.0.0/umd/react.development.js" type="text/javascript"></script>
