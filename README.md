@@ -41,7 +41,7 @@ $ touch ~/react-course-projects/indecision-app/public/index.html
 ```
 $ live-server public/
 ```
-You should see your index.html
+You should see your index.html, modify it, save it and automatically see the changes on the browser
 ### Include script tags in index.html for React and ReactDOM
 ```
 <script src="https://unpkg.com/react@16.0.0/umd/react.development.js" type="text/javascript"></script>
