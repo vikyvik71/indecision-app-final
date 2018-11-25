@@ -29,6 +29,7 @@ $ yarn global add live-server
 Check with:
 ```
 $ live-server -v
+live-server 1.2.0
 ```
 ### Create a public folder and index.html
 ```
