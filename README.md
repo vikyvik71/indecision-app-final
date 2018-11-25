@@ -3,8 +3,11 @@
 ### Install NodeJS -> [Installer](https://nodejs.org/)
 Check with:
 ```
-$ node -v 
+$ node -v
+v8.11.1
+
 $ npm -v
+6.4.1
 ```
 ### Install Yarn (globally)
 ```
