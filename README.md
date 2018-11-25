@@ -16,6 +16,7 @@ $ npm install -g yarn
 Check with:
 ```
 $ yarn --version
+1.12.3
 ```
 ### Create a project folder
 ```
