@@ -42,21 +42,22 @@ $ touch ~/react-course-projects/indecision-app/public/index.html
 $ live-server public/
 ```
 You should see your index.html. Modify it, save it and automatically see the changes on the browser
-### Include script tags in index.html for React and ReactDOM
-```
-<script src="https://unpkg.com/react@16.0.0/umd/react.development.js" type="text/javascript"></script>
-<script src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.development.js" type="text/javascript"></script>
-```
 ### Create a script folder under public folder
 ```
 $ cd ~/react-course-projects/indecision-app/public
 $ mkdir -p scripts
 ```
 ### Create app.js file in the scripts folder
-This is the main script for the app
 ```
 $ cd ~/react-course-projects/indecision-app/public/scripts
 $ touch app.js
+```
+This is the main script for the app
+### Include script tags in index.html for React and ReactDOM and app.js
+```
+<script src="https://unpkg.com/react@16.0.0/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.development.js"></script>
+<script src="/scripts/app.js"></script>
 ```
 ### Install Babel (globally)
 ```
