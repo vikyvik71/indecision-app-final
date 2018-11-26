@@ -118,3 +118,8 @@ $ yarn --version
 ```
 $ mkdir -p ~/react-course-projects/indecision-app
 ```
+### Init the project
+```
+$ cd ~/react-course-projects/indecision-app
+$ yarn init
+```
