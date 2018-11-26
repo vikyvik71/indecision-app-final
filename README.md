@@ -94,3 +94,27 @@ This app.js is the original (not compiled) source script.
 $ babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
 ```
 Now with live server and babel the workflow is complete and live changes are reflected in the browser
+
+## With Webpack
+### Install NodeJS -> [Installer](https://nodejs.org/)
+Check with:
+```
+$ node -v
+v8.11.1
+
+$ npm -v
+6.4.1
+```
+### Install Yarn (globally)
+```
+$ npm install -g yarn
+```
+Check with:
+```
+$ yarn --version
+1.12.3
+```
+### Create a project folder
+```
+$ mkdir -p ~/react-course-projects/indecision-app
+```
