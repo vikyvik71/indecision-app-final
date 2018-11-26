@@ -118,6 +118,12 @@ $ yarn --version
 ```
 $ mkdir -p ~/react-course-projects/indecision-app
 ```
+### Create a public folder and index.html
+```
+$ cd ~/react-course-projects/indecision-app
+$ mkdir -p public
+$ touch ~/react-course-projects/indecision-app/public/index.html
+```
 ### Init the project
 ```
 $ cd ~/react-course-projects/indecision-app
